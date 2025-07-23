@@ -13,8 +13,10 @@ int main()
                 break;
         case 2:(x<y)?printf("less than"):printf("not less than");
                 break;
-        case 3:(v=x/y)?printf("\nquotient is::%d",v):printf("\nquotient is::%d",v);
-               (v=x%y)?printf("\nRemainder is::%d",v):printf("\nRemainder is::%d",v);
+        case 3:v=x/y;
+                printf("\nquotient::%d",v);
+               v=x%y;
+                printf("\nRemainder::%d",v);
                break;      
         case 4: printf("enter the no::");
                 scanf("%d",&z);
